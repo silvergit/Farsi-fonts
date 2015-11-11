@@ -1,9 +1,12 @@
-
-
-1- در مسیر خانه یک پوشه به نام "fonts." بسازید.
-mkdir ~/.fonts
-
-2- فونت‌ها را از حالت فشرده خارج کنید و به مسیر "fonts." کپی کنید.
-
-3- در ترمینال دستور "fc-cache" را اجرا کنید.
-fc-cache
+# Farsi fonts for linux
+---
+* Make fonts folder
+	```Bash
+	$ mkdir ~/.fonts
+	```
+* Extract fonts
+* Copy fonts to .font folder
+* Update cache
+	```Bash
+	$ fc-cache
+	```
